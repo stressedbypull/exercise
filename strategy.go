@@ -35,11 +35,11 @@ func (resp Response) Read(stringa []byte) (int, error) {
 	fmt.Printf("RISPOSTA : %s ", resp.ID)
 	return 1, err
 }
-func main() {
 
+/* func main() {
 	var sr SpecificResponse
 	sayHello := "Hello World!"
 	sr.Response.Read([]byte(sayHello))
 	fmt.Printf(sr.ID)
 	fmt.Printf(sr.Response.ID)
-}
+} */
